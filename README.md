@@ -139,6 +139,4 @@ python train.py     # Train the model
 
 ---
 
-## Screenshots
 
-> Add screenshots or a demo GIF here.
