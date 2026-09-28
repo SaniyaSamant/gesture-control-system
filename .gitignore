@@ -7,3 +7,4 @@ uploads/
 screenshot/
 *.avi
 *.mp4
+.DS_Store
