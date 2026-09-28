@@ -1,0 +1,8 @@
+flask
+opencv-python
+mediapipe
+numpy
+tensorflow
+pyautogui
+screen-brightness-control
+comtypes

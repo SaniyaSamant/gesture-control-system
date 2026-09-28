@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="instructions-container">
+        <h1>How to Use Gesture Controls</h1>
+        <div class="instruction-box">
+            <ul class="instructions-list">
+                <li class="instruction-item"><b>Index:</b> Brightness Up</li>
+                <li class="instruction-item"><b>Two:</b> Brightness Down</li>
+                <li class="instruction-item"><b>Next:</b> Next Slide</li>
+                <li class="instruction-item"><b>Prev:</b> Previous Slide</li>
+                <li class="instruction-item"><b>Thumb Up:</b> Volume Up</li>
+                <li class="instruction-item"><b>Thumb Down:</b> Volume Down</li>
+                <li class="instruction-item"><b>Hand:</b> Screenshot</li>
+                <li class="instruction-item"><b>Fist:</b> Start Presentation</li>
+            </ul>
+            <button onclick="window.location.href='/upload'">Proceed</button>
+        </div>
+    </div>    
+</body>
+</html>

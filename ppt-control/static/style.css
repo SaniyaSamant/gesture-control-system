@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('../static/images/output.jpg'); /* Ensure the correct path to your image */
+    background-size: cover;
+    background-position: center; /* Fix typo: 'background' should be 'background-position' */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* White text to contrast with dark background */
+    position: relative; /* Add this to allow absolute positioning for the button */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjusted for better layout */
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    /* Removed background and box-shadow */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: rgb(18, 17, 17);
+    background: #f8f402;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 10px rgba(250, 249, 249, 0.989);
+    position: absolute;
+    top: 20px; /* Position button at the top of the page */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to truly center the button */
+}
+
+button:hover {
+    background: #fcfdfe;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Adding media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        height: 70vh;
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+}

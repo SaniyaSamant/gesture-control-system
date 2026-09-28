@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+*.db
+venv/
+.env
+uploads/
+screenshot/
+*.avi
+*.mp4
